@@ -11,14 +11,16 @@ const (
 	EmojiLink      = "🔗"
 	EmojiInternet  = "🌐"
 
-	MainnetChainId = 1
-	HoleskyChainId = 17000
-	AnvilChainId   = 31337
+	MainnetChainId           = 1
+	HoleskyChainId           = 17000
+	AnvilChainId             = 31337
+	BuilderPlaygroundChainId = 1337
 
-	MainnetNetworkName = "mainnet"
-	HoleskyNetworkName = "holesky"
-	AnvilNetworkName   = "anvil"
-	UnknownNetworkName = "unknown"
+	MainnetNetworkName    = "mainnet"
+	HoleskyNetworkName    = "holesky"
+	AnvilNetworkName      = "anvil"
+	BuilderPlaygroundName = "builder-playground"
+	UnknownNetworkName    = "unknown"
 )
 
 var (

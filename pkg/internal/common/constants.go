@@ -11,9 +11,10 @@ const (
 	OutputType_Pretty   OutputType = "pretty"
 	OutputType_Json     OutputType = "json"
 
-	MainnetChainId = 1
-	HoleskyChainId = 17000
-	AnvilChainId   = 31337
+	MainnetChainId           = 1
+	HoleskyChainId           = 17000
+	AnvilChainId             = 31337
+	BuilderPlaygroundChainId = 1337
 
 	MainnetNetworkName = "mainnet"
 	HoleskyNetworkName = "holesky"

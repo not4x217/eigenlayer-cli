@@ -174,6 +174,9 @@ func promptOperatorInfo(config *types.OperatorConfig, p utils.Prompter) (types.O
 	case utils.AnvilNetworkName:
 		config.ChainId = *big.NewInt(utils.AnvilChainId)
 		config.ELDelegationManagerAddress = common.ChainMetadataMap[utils.AnvilChainId].ELDelegationManagerAddress
+	case utils.BuilderPlaygroundName:
+		config.ChainId = *big.NewInt(utils.BuilderPlaygroundChainId)
+		config.ELDelegationManagerAddress = common.ChainMetadataMap[utils.BuilderPlaygroundChainId].ELDelegationManagerAddress
 	}
 
 	// Prompt for signer type
